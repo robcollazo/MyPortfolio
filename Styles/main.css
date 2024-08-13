@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
   background-color: var(--gray-200);
   padding: 72px 120px 144px 120px;
 
@@ -29,6 +30,7 @@
 
     background-color: var(--gray-300);
     border-radius: 12px;
+    border: 1px solid transparent;
 
     img {
       border-radius: 8px;
@@ -51,5 +53,124 @@
     p {
       color: var(--gray-500);
     }
+  }
+  figure:hover {
+    border: 1px solid var(--gray-400);
+  }
+}
+
+#summary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--gray-100);
+  padding: 72px 120px 144px 120px;
+
+  h3 {
+    color: var(--red);
+    margin-bottom: 8px;
+  }
+
+  h2 {
+    color: var(--gray-600);
+    margin-bottom: 56px;
+  }
+
+  .grid {
+    display: grid;
+  }
+
+  figure {
+    display: flex;
+    padding: 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    flex-shrink: 0;
+
+    border: 2px solid var(--gray-200);
+    border-radius: 12px;
+
+    img {
+      border-radius: 8px;
+    }
+
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    figcaption {
+      color: var(--gray-600);
+      margin-bottom: 8px;
+    }
+
+    p {
+      color: var(--gray-500);
+    }
+  }
+
+  figure:hover {
+    border: 2px solid var(--gray-400);
+  }
+}
+
+#contact {
+  background: url(../Assets/Background_Contacts.png) lightgray 50% / cover
+    no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 128px 120px 200px 120px;
+
+  h3 {
+    color: var(--red);
+    margin-bottom: 8px;
+  }
+
+  h2 {
+    color: var(--gray-600);
+    margin-bottom: 8px;
+  }
+
+  h4 {
+    color: var(--gray-500);
+    margin-bottom: 48px;
+  }
+
+  #links {
+    display: flex;
+    flex-direction: column;
+
+    gap: 16px;
+  }
+
+  #button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 360px;
+    padding: 20px;
+
+    background-color: var(--gray-300);
+    border-radius: 8px;
+    border: 1px solid transparent;
+  }
+
+  #button:hover {
+    border: 1px solid var(--blue);
+  }
+
+  #social-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  img {
+    width: 28px;
+    height: 28px;
   }
 }

@@ -45,4 +45,9 @@ li {
 
   background-color: var(--gray-300);
   border-radius: 999px;
+  border: 2px solid transparent;
+}
+
+li:hover {
+  border: 2px solid var(--gray-400);
 }
