@@ -1,0 +1,48 @@
+header {
+  background: url(../Assets/Background_Intro.png) lightgray 50% / cover
+    no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 163px 57px 163px;
+
+  div#avatar {
+    margin-bottom: 56px;
+  }
+  img#avatar {
+    width: 87px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid var(--red);
+  }
+
+  strong {
+    color: var(--red);
+  }
+
+  h1 {
+    margin-bottom: 20px;
+  }
+}
+
+ul {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  list-style-type: none;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px 16px;
+  margin-top: 80px;
+  margin-bottom: 94px;
+
+  background-color: var(--gray-300);
+  border-radius: 999px;
+}
